@@ -5,7 +5,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;   
-    font-family: roboto;
+    font-family: roboto, sans-serif;
 }
 
 .body, .html {
@@ -21,22 +21,22 @@
     padding: 20px 150px 0 150px;
 }
 
+.nav {
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    color: #e5e7eb;
+}
+
 .headerLogo {
     margin-right: auto;
     font-size: 24px;
     color: #f9faf8;
 }
 
-.nav {
-    width: 100%;
-    display: flex;
-    gap: 20px;
-}
-
 .hero {
     display: flex;
-    padding-top: 100px;
-    padding-bottom: 120px;
+    padding: 100px 0 120px;
     gap: 40px;
 }
 
@@ -50,7 +50,7 @@
     font-size: 48px;
 }
 
-.heroText p, .headerLink {
+.heroText p {
     color: #e5e7eb;
     font-size: 18px;
     margin: 10px 0 10px 0;
