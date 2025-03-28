@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;   
+    font-family: roboto;
+}
+
+.body, .html {
+    max-width: 100%;
+    height: 100%;
+    background-color: #f9faf8;
+}
+
+/* HEADER SECTION*/
+
+.headerContainer {
+    background-color: #1f2937;
+    padding: 20px 150px 0 150px;
+}
+
+.headerLogo {
+    margin-right: auto;
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.nav {
+    width: 100%;
+    display: flex;
+    gap: 20px;
+}
+
+.hero {
+    display: flex;
+    padding-top: 100px;
+    padding-bottom: 120px;
+    gap: 40px;
+}
+
+.hero, .heroText, .heroImg {
+    flex: 1;
+}
+
+.heroText h1 {
+    color: #f9faf8;
+    font-weight: 900;
+    font-size: 48px;
+}
+
+.heroText p, .headerLink {
+    color: #e5e7eb;
+    font-size: 18px;
+    margin: 10px 0 10px 0;
+}
+
+.heroText button {
+    color: #f9faf8;
+    padding: 8px 30px;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-top: 10px;
+    background-color: #3882F6;
+    border: none;
+}
+
+.heroImg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #f9faf8;
+    padding: 50px;
+    background-color: grey;
+}
+
+/* RANDOM INFO SECTION */
+
+.rdmInfoContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 50px 250px 80px 250px;
+}
+
+.imgContainer {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+}
+
+.rdmInfoContainer h1{
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: 900;
+    padding-bottom: 40px;
+    text-align: center;
+    justify-content: center;
+}
+
+.imgSize {
+    width: 200px;
+    height: 200px;
+    border: 2px solid #3882F6;
+    border-radius: 20px;
+}
+
+.imgLayout {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-content: center;
+    align-items: center;
+}
+
+.imgLayout p {
+    text-align: center;
+    font-size: 18px;
+}
+
+/* QUOTE SECTION */
+
+.quoteContainer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    padding: 120px 350px;
+    background-color: #e5e7eb;
+    color: #1f2937;
+}
+
+.quoteContainer h1 {
+    text-align: left;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.quoteContainer p {
+    text-align: right;
+    font-weight: bold;
+}
+
+/* CALL TO ACTION SECTION */
+
+.ctaContainer {
+    display: flex;
+    justify-content: center;
+    padding: 100px 200px;
+    color: #f9faf8;
+}
+
+.ctaText {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    gap: 50px;
+    padding: 50px 80px;
+    background-color: #3882F6;
+    border-radius: 10px;
+}
+
+.ctaText h3 {
+    margin-bottom: 2px;
+}
+
+.ctaText p {
+    font-weight: lighter;
+}
+
+.ctaText button {
+    padding: 0 40px;
+    color: #f9faf8;
+    border-radius: 5px;
+    border: 1px solid #f9faf8;
+    background-color: transparent;
+}
+
+/* FOOTER CONTAINER */
+
+.footerContainer {
+    text-align: center;
+    background-color: #1f2937;
+    color: #e5e7eb;
+    padding: 40px 100px;
+}
